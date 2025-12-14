@@ -250,12 +250,12 @@ UPSTASH_REDIS_REST_TOKEN=xxxxx:yyyyy
 ## 🚀 Quick Start (Local)
 ```bash
 # 1) Install deps
-pnpm i     # or npm i / yarn
+npm i     # or pnpm i / yarn
 
 # 2) Add .env.local (see above)
 
 # 3) Run dev server
-pnpm dev   # or npm run dev / yarn dev
+npm run dev   # or pnpm dev / yarn dev
 
 # 4) Visit the UI
 http://localhost:3000/leaderboard/week
