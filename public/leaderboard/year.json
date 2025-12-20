@@ -1,8 +1,8 @@
 {
   "period": "year",
-  "updatedAt": 1766178024987,
-  "startDate": "2024-12-19",
-  "endDate": "2025-12-19",
+  "updatedAt": 1766192577805,
+  "startDate": "2024-12-20",
+  "endDate": "2025-12-20",
   "hiddenRoles": [],
   "entries": [
     {
@@ -1792,26 +1792,6 @@
       "daily_activity": [
         {
           "date": "2025-11-23",
-          "count": 1,
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "Theminacious",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/89292263?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-11-18",
           "count": 1,
           "points": 2
         }
