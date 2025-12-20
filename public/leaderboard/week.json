@@ -1,6 +1,6 @@
 {
   "period": "week",
-  "updatedAt": 1766211677640,
+  "updatedAt": 1766233540737,
   "startDate": "2025-12-13",
   "endDate": "2025-12-20",
   "hiddenRoles": [],
@@ -498,46 +498,6 @@
       "daily_activity": [
         {
           "date": "2025-12-16",
-          "count": 1,
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "KumarAr0631F",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/98699025?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-13",
-          "count": 1,
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "compiler041",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/209431292?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-13",
           "count": 1,
           "points": 2
         }
