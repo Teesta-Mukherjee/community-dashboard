@@ -76,7 +76,7 @@ const Navbar = ({ config }: NavbarProps) => {
 
       {/* Mobile Navbar */}
       <nav className={`md:hidden fixed bottom-4 left-1/2 transition-transform duration-400 ease-in-out -translate-x-1/2 z-50 ${scrollDirection === "down" ? "translate-y-50" : "translate-y-0"}`}>
-        <div className="flex items-center gap-1 rounded-full border border-zinc-200 dark:border-white/10 bg-background/90 backdrop-blur-xl shadow-xl px-2 py-2">
+        <div className="flex items-center gap-1 rounded-full border border-zinc-200 dark:border-white/10 bg-background/90 backdrop-blur-xl shadow-xl">
           {navItems.map((item) => {
             const Icon = item.icon;
             const active = isActive(item.href);
