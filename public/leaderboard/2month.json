@@ -1,6 +1,6 @@
 {
   "period": "2month",
-  "updatedAt": 1766663539127,
+  "updatedAt": 1766665720559,
   "startDate": "2025-10-26",
   "endDate": "2025-12-25",
   "hiddenRoles": [],
@@ -2664,6 +2664,67 @@
       ]
     },
     {
+      "username": "Me-Priyank",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
+      "role": "Contributor",
+      "total_points": 5,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        },
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-25",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2025-12-24",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "Pagination implemented",
+          "occured_at": "2025-12-25T12:05:18Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/1",
+          "points": 2,
+          "contributor": "Me-Priyank",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "#472 fixed (proper optimization implemented)",
+          "occured_at": "2025-12-25T07:53:36Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/473",
+          "points": 2,
+          "contributor": "Me-Priyank",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Docs Website Performance Issue - Large Unused JavaScript & CSS and Low Code Coverage (27%)",
+          "occured_at": "2025-12-24T18:06:26Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/472",
+          "points": 1,
+          "contributor": "Me-Priyank",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4"
+        }
+      ]
+    },
+    {
       "username": "Aakansha-Chavan",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/181594189?v=4",
@@ -3271,57 +3332,6 @@
           "contributor": "abhi-battula",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/193874792?v=4"
-        }
-      ]
-    },
-    {
-      "username": "Me-Priyank",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
-      "role": "Contributor",
-      "total_points": 3,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-25",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "#472 fixed (proper optimization implemented)",
-          "occured_at": "2025-12-25T07:53:36Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/473",
-          "points": 2,
-          "contributor": "Me-Priyank",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Docs Website Performance Issue - Large Unused JavaScript & CSS and Low Code Coverage (27%)",
-          "occured_at": "2025-12-24T18:06:26Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/472",
-          "points": 1,
-          "contributor": "Me-Priyank",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4"
         }
       ]
     },
