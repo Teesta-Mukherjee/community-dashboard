@@ -38,15 +38,23 @@ interface ApiResponse {
   };
 }
 
-async function fetchPeople(): Promise<ApiResponse> {
-  const base = process.env.NEXT_PUBLIC_BASE_URL ?? "";
-  const res = await fetch(`${base}/api/people`, { cache: "no-store" });
-  if (!res.ok) {
-    throw new Error('Failed to fetch people');
-  }
-  return res.json();
-}
+type PeopleResponse = {
+  updatedAt: number;
+  people: any[];
+};
 
+async function fetchPeople(): Promise<PeopleResponse> {
+  const base = process.env.NEXT_PUBLIC_BASE_URL;
+  const apiUrl = base ? `${base}/api/people` : "/api/people";
+
+  try {
+    const res = await fetch(apiUrl, { cache: "no-store" });
+    if (!res.ok) return { updatedAt: 0, people: [] };
+    return res.json();
+  } catch {
+    return { updatedAt: 0, people: [] };
+  }
+}
 export default function PeoplePage() {
   const [people, setPeople] = useState<ContributorEntry[]>([]);
   const [updatedAt, setUpdatedAt] = useState<number>(Date.now());
