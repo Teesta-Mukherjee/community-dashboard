@@ -234,13 +234,13 @@ export default function LeaderboardView({
                 {/* Role Filter */}
                 {availableRoles.length > 0 && (
                   <>
-                    <div className="flex flex-col gap-2 w-full sm:w-auto sm:flex-row sm:items-center sm:gap-2">
+                    <div className="flex flex-row items-center gap-2 w-full sm:w-auto sm:flex-row sm:items-center sm:gap-2 justify-between sm:justify-start">
                       {(selectedRoles.size > 0 || searchQuery) && (
                         <Button
                           variant="ghost"
                           size="sm"
                           onClick={clearFilters}
-                          className="h-9 w-full sm:w-auto hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none"
+                          className="h-9 shrink-0 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none order-2 sm:order-1"
                         >
                           <X className="h-4 w-4 mr-1" />
                           Clear
@@ -251,12 +251,12 @@ export default function LeaderboardView({
                           <Button
                             variant="outline"
                             size="sm"
-                            className="h-9 w-full sm:w-auto border border-[#50B78B]/30 dark:border-[#50B78B]/30 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none"
+                            className="h-9 w-[min(11rem,calc(100%-6rem))] px-1 has-[>svg]:px-1 sm:w-auto sm:px-3 sm:has-[>svg]:px-2.5 border border-[#50B78B]/30 dark:border-[#50B78B]/30 hover:bg-[#50B78B]/20 dark:hover:bg-[#50B78B]/20 focus:border-[#50B78B] focus-visible:ring-2 focus-visible:ring-[#50B78B]/40 outline-none min-w-0 order-1 sm:order-2"
                           >
-                            <Filter className="h-4 w-4 mr-2" />
+                            <Filter className="h-4 w-4 mr-1.5 sm:mr-2" />
                             Role
                             {selectedRoles.size > 0 && (
-                              <span className="ml-1 px-1.5 py-0.5 text-xs rounded-full bg-[#50B78B] text-white">
+                              <span className="ml-0.5 sm:ml-1 px-1.5 py-0.5 text-xs rounded-full bg-[#50B78B] text-white">
                                 {selectedRoles.size}
                               </span>
                             )}
