@@ -171,11 +171,12 @@ export default function PeoplePage() {
   return (
     <div className="mx-auto px-4 py-8 max-w-7xl">
       <div className="mb-8 text-center">
-        <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-green-600 to-emerald-500 dark:from-green-400 dark:to-emerald-300 bg-clip-text text-transparent">
-          Our People
+        <h1 className="text-4xl font-bold mb-4">
+          <span className="text-black dark:text-white">Our </span>
+          <span className="text-[#42B883]">People</span>
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-4">
-          Meet the {people.length} amazing contributors who make CircuitVerse possible
+          Meet the contributors who made CircuitVerse possible this year.
         </p>
         {updatedAt && (
           <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">

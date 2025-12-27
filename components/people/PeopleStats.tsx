@@ -89,61 +89,61 @@ export function PeopleStats({ contributors, onContributorClick }: PeopleStatsPro
   return (
     <div className="space-y-8">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <Card className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-950 dark:to-green-900 border-green-200 dark:border-green-800">
+        <Card className="bg-gradient-to-br from-green-600 to-emerald-600 dark:from-green-500 dark:to-emerald-700 border-green-300 dark:border-emerald-600 shadow-lg hover:shadow-2xl transition-all duration-300">
           <CardContent className="p-6">
             <div className="flex items-center gap-3">
-              <div className="p-3 bg-green-100 dark:bg-green-900 rounded-xl shadow-sm">
-                <Users className="w-6 h-6 text-green-600 dark:text-green-400" />
+              <div className="p-3 bg-white/20 dark:bg-white/10 rounded-xl shadow-sm">
+                <Users className="w-6 h-6 text-white" />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground">Total Contributors</p>
-                <p className="text-2xl font-bold text-green-700 dark:text-green-300">{totalContributors}</p>
-                <p className="text-xs text-green-600/80 dark:text-green-400/80">Active community</p>
+                <p className="text-md text-white/80">Total Contributors</p>
+                <p className="text-2xl font-bold text-white">{totalContributors}</p>
+                <p className="text-sm text-white/70">Active community</p>
               </div>
             </div>
           </CardContent>
         </Card>
 
-        <Card className="bg-gradient-to-br from-emerald-50 to-emerald-100 dark:from-emerald-950 dark:to-emerald-900 border-emerald-200 dark:border-emerald-800">
+        <Card className="bg-gradient-to-br from-amber-600 to-orange-600 dark:from-amber-500 dark:to-orange-700 border-amber-300 dark:border-orange-600 shadow-lg hover:shadow-2xl transition-all duration-300">
           <CardContent className="p-6">
             <div className="flex items-center gap-3">
-              <div className="p-3 bg-emerald-100 dark:bg-emerald-900 rounded-xl shadow-sm">
-                <Trophy className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
+              <div className="p-3 bg-white/20 dark:bg-white/10 rounded-xl shadow-sm">
+                <Trophy className="w-6 h-6 text-white" />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground">Total Points</p>
-                <p className="text-2xl font-bold text-emerald-700 dark:text-emerald-300">{totalPoints.toLocaleString()}</p>
-                <p className="text-xs text-emerald-600/80 dark:text-emerald-400/80">Community effort</p>
+                <p className="text-md text-white/80">Total Points</p>
+                <p className="text-2xl font-bold text-white">{totalPoints.toLocaleString()}</p>
+                <p className="text-sm text-white/70">Community effort</p>
               </div>
             </div>
           </CardContent>
         </Card>
 
-        <Card className="bg-gradient-to-br from-teal-50 to-teal-100 dark:from-teal-950 dark:to-teal-900 border-teal-200 dark:border-teal-800">
+        <Card className="bg-gradient-to-br from-blue-600 to-cyan-600 dark:from-blue-500 dark:to-cyan-700 border-blue-300 dark:border-cyan-600 shadow-lg hover:shadow-2xl transition-all duration-300">
           <CardContent className="p-6">
             <div className="flex items-center gap-3">
-              <div className="p-3 bg-teal-100 dark:bg-teal-900 rounded-xl shadow-sm">
-                <Target className="w-6 h-6 text-teal-600 dark:text-teal-400" />
+              <div className="p-3 bg-white/20 dark:bg-white/10 rounded-xl shadow-sm">
+                <Target className="w-6 h-6 text-white" />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground">Avg Points</p>
-                <p className="text-2xl font-bold text-teal-700 dark:text-teal-300">{averagePoints}</p>
-                <p className="text-xs text-teal-600/80 dark:text-teal-400/80">Per contributor</p>
+                <p className="text-md text-white/80">Avg Points</p>
+                <p className="text-2xl font-bold text-white">{averagePoints}</p>
+                <p className="text-sm text-white/70">Per contributor</p>
               </div>
             </div>
           </CardContent>
         </Card>
 
-        <Card className="bg-gradient-to-br from-lime-50 to-lime-100 dark:from-lime-950 dark:to-lime-900 border-lime-200 dark:border-lime-800">
+        <Card className="bg-gradient-to-br from-purple-600 to-pink-600 dark:from-purple-500 dark:to-pink-700 border-purple-300 dark:border-pink-600 shadow-lg hover:shadow-2xl transition-all duration-300">
           <CardContent className="p-6">
             <div className="flex items-center gap-3">
-              <div className="p-3 bg-lime-100 dark:bg-lime-900 rounded-xl shadow-sm">
-                <TrendingUp className="w-6 h-6 text-lime-600 dark:text-lime-400" />
+              <div className="p-3 bg-white/20 dark:bg-white/10 rounded-xl shadow-sm">
+                <TrendingUp className="w-6 h-6 text-white" />
               </div>
               <div>
-                <p className="text-sm text-muted-foreground">Active This Week</p>
-                <p className="text-2xl font-bold text-lime-700 dark:text-lime-300">{recentlyActive}</p>
-                <p className="text-xs text-lime-600/80 dark:text-lime-400/80">{Math.round((recentlyActive/totalContributors)*100)}% of community</p>
+                <p className="text-md text-white/80">Active This Year</p>
+                <p className="text-2xl font-bold text-white">{recentlyActive}</p>
+                <p className="text-sm text-white/70">{Math.round((recentlyActive/totalContributors)*100)}% of community</p>
               </div>
             </div>
           </CardContent>
@@ -155,7 +155,7 @@ export function PeopleStats({ contributors, onContributorClick }: PeopleStatsPro
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Star className="w-5 h-5 text-yellow-500" />
-              Top Contributors
+              Top Contributors of the year
             </CardTitle>
           </CardHeader>
           <CardContent>
