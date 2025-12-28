@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1766884338667,
+  "updatedAt": 1766902966268,
   "groups": [
     {
       "date": "2025-12-28",
@@ -10,6 +10,14 @@
           "title": "fix(TabsBar) - toggle button now properly expands/collapses tabs bar height",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/703",
           "avatar_url": "https://avatars.githubusercontent.com/u/194053810?v=4",
+          "points": 2
+        },
+        {
+          "username": "themradul07",
+          "name": null,
+          "title": "Issue 34 - Added Dropdown Filters",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/39",
+          "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
           "points": 2
         }
       ]
@@ -114,19 +122,19 @@
           "points": 1
         },
         {
-          "username": "ViRUS-0-0",
-          "name": null,
-          "title": "Fix createPopper error by including Popper.js dependency",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
-          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
-          "points": 2
-        },
-        {
           "username": "themradul07",
           "name": null,
           "title": "Issue #34 - Added filters",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/35",
           "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
+          "points": 2
+        },
+        {
+          "username": "ViRUS-0-0",
+          "name": null,
+          "title": "Fix createPopper error by including Popper.js dependency",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
+          "avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4",
           "points": 2
         }
       ]
@@ -335,7 +343,7 @@
           "points": 5
         },
         {
-          "username": "ys748477-dotcom",
+          "username": "yashveer-1",
           "name": null,
           "title": "🐞 Bug - Canvas does not fully redraw after resize (DevTools toggle) in v0 simulator",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/700",
@@ -747,7 +755,7 @@
       "date": "2025-12-22",
       "items": [
         {
-          "username": "ys748477-dotcom",
+          "username": "yashveer-1",
           "name": null,
           "title": "Wire routing parity investigation - v0 simulator tightly couples wire geometry with transform/listener system",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/697",
@@ -898,7 +906,7 @@
           "points": 1
         },
         {
-          "username": "ys748477-dotcom",
+          "username": "yashveer-1",
           "name": null,
           "title": "🐞 Bug - Wire routing parity issue - cv-frontend-vue does not support orthogonal (zig-zag) wires",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/696",
@@ -1012,7 +1020,7 @@
           "points": 2
         },
         {
-          "username": "ys748477-dotcom",
+          "username": "yashveer-1",
           "name": null,
           "title": "Add documentation for simulator circuit data flow",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/695",

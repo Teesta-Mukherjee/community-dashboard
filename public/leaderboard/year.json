@@ -1,6 +1,6 @@
 {
   "period": "year",
-  "updatedAt": 1766884338641,
+  "updatedAt": 1766902966243,
   "startDate": "2024-12-28",
   "endDate": "2025-12-28",
   "hiddenRoles": [],
@@ -14077,7 +14077,7 @@
       ]
     },
     {
-      "username": "ys748477-dotcom",
+      "username": "yashveer-1",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
       "role": "Contributor",
@@ -15585,6 +15585,47 @@
           "occured_at": "2025-12-01T17:35:01Z",
           "title": "Fix responsive layout issues in CTA section and add dynamic footer year",
           "link": "https://github.com/CircuitVerse/Blog/pull/253",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "themradul07",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
+      "role": "Contributor",
+      "total_points": 4,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-28",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-27",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-28T04:08:28Z",
+          "title": "Issue 34 - Added Dropdown Filters",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/39",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-27T12:31:51Z",
+          "title": "Issue #34 - Added filters",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/35",
           "points": 2
         }
       ]
@@ -17610,35 +17651,6 @@
           "occured_at": "2025-12-27T12:47:01Z",
           "title": "Fix createPopper error by including Popper.js dependency",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6510",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "themradul07",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-27",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-27T12:31:51Z",
-          "title": "Issue #34 - Added filters",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/35",
           "points": 2
         }
       ]

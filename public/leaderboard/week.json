@@ -1,6 +1,6 @@
 {
   "period": "week",
-  "updatedAt": 1766884338648,
+  "updatedAt": 1766902966249,
   "startDate": "2025-12-21",
   "endDate": "2025-12-28",
   "hiddenRoles": [],
@@ -1422,6 +1422,53 @@
       ]
     },
     {
+      "username": "themradul07",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
+      "role": "Contributor",
+      "total_points": 4,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 2,
+          "points": 4
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-28",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-27",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "Issue 34 - Added Dropdown Filters",
+          "occured_at": "2025-12-28T04:08:28Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/39",
+          "points": 2,
+          "contributor": "themradul07",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "Issue #34 - Added filters",
+          "occured_at": "2025-12-27T12:31:51Z",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/35",
+          "points": 2,
+          "contributor": "themradul07",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4"
+        }
+      ]
+    },
+    {
       "username": "Varshad-Potle",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/205039168?v=4",
@@ -1468,7 +1515,7 @@
       ]
     },
     {
-      "username": "ys748477-dotcom",
+      "username": "yashveer-1",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
       "role": "Contributor",
@@ -1498,7 +1545,7 @@
           "occured_at": "2025-12-22T12:41:11Z",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/697",
           "points": 1,
-          "contributor": "ys748477-dotcom",
+          "contributor": "yashveer-1",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
         },
@@ -1508,7 +1555,7 @@
           "occured_at": "2025-12-26T11:52:45Z",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/700",
           "points": 1,
-          "contributor": "ys748477-dotcom",
+          "contributor": "yashveer-1",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4"
         }
@@ -1607,38 +1654,6 @@
           "contributor": "ViRUS-0-0",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4"
-        }
-      ]
-    },
-    {
-      "username": "themradul07",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-27",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "Issue #34 - Added filters",
-          "occured_at": "2025-12-27T12:31:51Z",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/35",
-          "points": 2,
-          "contributor": "themradul07",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4"
         }
       ]
     },
