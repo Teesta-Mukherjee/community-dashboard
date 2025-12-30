@@ -26,7 +26,7 @@ import {
 } from "lucide-react";
 
 type ActivityUIConfig = {
-  icon: JSX.Element;
+  icon: React.ReactNode;
   gradient: string;
   borderColor: string;
   bgColor: string;
@@ -34,6 +34,7 @@ type ActivityUIConfig = {
   textColor: string;
   accentColor: string;
 };
+
 
 type ActivityKey =
   | "PR merged"
