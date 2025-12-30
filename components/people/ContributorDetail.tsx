@@ -49,7 +49,7 @@ interface ContributorDetailProps {
 
 // Activity type configuration with unique visual identity
 const activityConfig: Record<string, {
-  icon: React.ReactNode;
+  icon: JSX.Element;
   gradient: string;
   borderColor: string;
   bgColor: string;
