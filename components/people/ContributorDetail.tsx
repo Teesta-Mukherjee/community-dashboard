@@ -118,7 +118,7 @@ const defaultConfig = {
 export function ContributorDetail({ contributor, onBack }: ContributorDetailProps) {
   const [currentTime] = useState(() => Date.now());
 
-  const getActivityConfig = (activityType: string) => {
+  const getActivityConfig = (activityType: string): typeof defaultConfig => {
     const type = activityType.toLowerCase();
     
     // Check for exact matches first
