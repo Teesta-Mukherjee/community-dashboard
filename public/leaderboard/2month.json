@@ -1,6 +1,6 @@
 {
   "period": "2month",
-  "updatedAt": 1767075859902,
+  "updatedAt": 1767097838413,
   "startDate": "2025-10-31",
   "endDate": "2025-12-30",
   "hiddenRoles": [],
@@ -971,11 +971,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
       "role": "Contributor",
-      "total_points": 47,
+      "total_points": 51,
       "activity_breakdown": {
         "PR opened": {
-          "count": 11,
-          "points": 22
+          "count": 13,
+          "points": 26
         },
         "PR merged": {
           "count": 4,
@@ -1026,6 +1026,11 @@
           "date": "2025-12-07",
           "count": 2,
           "points": 3
+        },
+        {
+          "date": "2025-12-30",
+          "count": 2,
+          "points": 4
         },
         {
           "date": "2025-12-29",
@@ -1149,6 +1154,26 @@
           "title": "fix - correct typo in system requirements filename and references (#444)",
           "occured_at": "2025-12-07T17:35:27Z",
           "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/445",
+          "points": 2,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "docs - add workarounds for application.js and CRLF errors in troubleshooting guide",
+          "occured_at": "2025-12-30T11:59:48Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6528",
+          "points": 2,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "fix - resolve Tauri Desktop Release CI/CD failures on all platforms",
+          "occured_at": "2025-12-30T09:27:26Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/706",
           "points": 2,
           "contributor": "senutpal",
           "contributor_name": null,
@@ -2780,6 +2805,126 @@
       ]
     },
     {
+      "username": "akshitvigg",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
+      "role": "Contributor",
+      "total_points": 15,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 4,
+          "points": 8
+        },
+        "PR merged": {
+          "count": 1,
+          "points": 5
+        },
+        "Issue opened": {
+          "count": 2,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-14",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-01",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-11-30",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-30",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-24",
+          "count": 1,
+          "points": 5
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
+          "occured_at": "2025-12-14T14:20:24Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
+          "points": 2,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "refactor - converted sequential.ts to TypeScript",
+          "occured_at": "2025-12-01T18:18:20Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/682",
+          "points": 2,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "refactor - converted i18n.js to TypeScript",
+          "occured_at": "2025-11-30T17:32:34Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/681",
+          "points": 2,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "docs - fix duplicated words in documentation",
+          "occured_at": "2025-12-30T11:27:27Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/481",
+          "points": 2,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        },
+        {
+          "type": "PR merged",
+          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
+          "occured_at": "2025-12-24T17:17:32Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
+          "points": 5,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Fix grammar error - 'an CircuitVerse' should be 'a CircuitVerse' in LMS Integration",
+          "occured_at": "2025-12-14T14:03:50Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/460",
+          "points": 1,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Fix duplicated words in documentation files",
+          "occured_at": "2025-12-30T11:16:59Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/480",
+          "points": 1,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        }
+      ]
+    },
+    {
       "username": "salmoneatenbybear",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/177742943?v=4",
@@ -3123,101 +3268,6 @@
           "contributor": "Nihal4777",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/65150640?v=4"
-        }
-      ]
-    },
-    {
-      "username": "akshitvigg",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
-      "role": "Contributor",
-      "total_points": 12,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 3,
-          "points": 6
-        },
-        "PR merged": {
-          "count": 1,
-          "points": 5
-        },
-        "Issue opened": {
-          "count": 1,
-          "points": 1
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-14",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-12-01",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-11-30",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 5
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
-          "occured_at": "2025-12-14T14:20:24Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
-          "points": 2,
-          "contributor": "akshitvigg",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "refactor - converted sequential.ts to TypeScript",
-          "occured_at": "2025-12-01T18:18:20Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/682",
-          "points": 2,
-          "contributor": "akshitvigg",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "refactor - converted i18n.js to TypeScript",
-          "occured_at": "2025-11-30T17:32:34Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/681",
-          "points": 2,
-          "contributor": "akshitvigg",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
-        },
-        {
-          "type": "PR merged",
-          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
-          "occured_at": "2025-12-24T17:17:32Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
-          "points": 5,
-          "contributor": "akshitvigg",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
-        },
-        {
-          "type": "Issue opened",
-          "title": "Fix grammar error - 'an CircuitVerse' should be 'a CircuitVerse' in LMS Integration",
-          "occured_at": "2025-12-14T14:03:50Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/460",
-          "points": 1,
-          "contributor": "akshitvigg",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
         }
       ]
     },
@@ -6083,6 +6133,38 @@
           "contributor": "ParthMozarkar",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/218128772?v=4"
+        }
+      ]
+    },
+    {
+      "username": "sujal-thakur01",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161142634?v=4",
+      "role": "Contributor",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-30",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "title": "Improve macOS local setup documentation (Node.js, Redis, PostgreSQL, RSA keys)",
+          "occured_at": "2025-12-30T10:40:27Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6527",
+          "points": 1,
+          "contributor": "sujal-thakur01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/161142634?v=4"
         }
       ]
     },

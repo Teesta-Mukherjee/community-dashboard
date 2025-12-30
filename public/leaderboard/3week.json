@@ -1,6 +1,6 @@
 {
   "period": "3week",
-  "updatedAt": 1767075859897,
+  "updatedAt": 1767097838408,
   "startDate": "2025-12-09",
   "endDate": "2025-12-30",
   "hiddenRoles": [],
@@ -781,11 +781,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
       "role": "Contributor",
-      "total_points": 38,
+      "total_points": 40,
       "activity_breakdown": {
         "PR opened": {
-          "count": 7,
-          "points": 14
+          "count": 8,
+          "points": 16
         },
         "PR merged": {
           "count": 4,
@@ -823,9 +823,9 @@
           "points": 2
         },
         {
-          "date": "2025-12-09",
-          "count": 1,
-          "points": 2
+          "date": "2025-12-30",
+          "count": 2,
+          "points": 4
         },
         {
           "date": "2025-12-29",
@@ -906,9 +906,19 @@
         },
         {
           "type": "PR opened",
-          "title": "refactor - convert table2csv.js to TypeScript",
-          "occured_at": "2025-12-09T11:44:38Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/692",
+          "title": "docs - add workarounds for application.js and CRLF errors in troubleshooting guide",
+          "occured_at": "2025-12-30T11:59:48Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6528",
+          "points": 2,
+          "contributor": "senutpal",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "fix - resolve Tauri Desktop Release CI/CD failures on all platforms",
+          "occured_at": "2025-12-30T09:27:26Z",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/706",
           "points": 2,
           "contributor": "senutpal",
           "contributor_name": null,
@@ -2020,87 +2030,92 @@
       ]
     },
     {
-      "username": "ghanshyam2005singh",
+      "username": "akshitvigg",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
       "role": "Contributor",
-      "total_points": 12,
+      "total_points": 11,
       "activity_breakdown": {
         "PR opened": {
-          "count": 3,
-          "points": 6
+          "count": 2,
+          "points": 4
         },
         "PR merged": {
           "count": 1,
           "points": 5
         },
         "Issue opened": {
-          "count": 1,
-          "points": 1
+          "count": 2,
+          "points": 2
         }
       },
       "daily_activity": [
         {
-          "date": "2025-12-24",
-          "count": 3,
-          "points": 5
+          "date": "2025-12-14",
+          "count": 2,
+          "points": 3
         },
         {
-          "date": "2025-12-09",
+          "date": "2025-12-30",
           "count": 2,
-          "points": 7
+          "points": 3
+        },
+        {
+          "date": "2025-12-24",
+          "count": 1,
+          "points": 5
         }
       ],
       "activities": [
         {
           "type": "PR opened",
-          "title": "feat - add hover functionality to Getting Started dropdown",
-          "occured_at": "2025-12-24T11:52:20Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6502",
+          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
+          "occured_at": "2025-12-14T14:20:24Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
           "points": 2,
-          "contributor": "ghanshyam2005singh",
+          "contributor": "akshitvigg",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
         },
         {
           "type": "PR opened",
-          "title": "Fix - Update form control focus border and add green box-shadow",
-          "occured_at": "2025-12-24T08:52:11Z",
-          "link": "https://github.com/CircuitVerse/Blog/pull/258",
+          "title": "docs - fix duplicated words in documentation",
+          "occured_at": "2025-12-30T11:27:27Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/481",
           "points": 2,
-          "contributor": "ghanshyam2005singh",
+          "contributor": "akshitvigg",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "Fix - Button hover color now stays green (matches CircuitVerse scheme)",
-          "occured_at": "2025-12-09T11:40:00Z",
-          "link": "https://github.com/CircuitVerse/Blog/pull/256",
-          "points": 2,
-          "contributor": "ghanshyam2005singh",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
         },
         {
           "type": "PR merged",
-          "title": "Fix - Button hover color now stays green (matches CircuitVerse scheme)",
-          "occured_at": "2025-12-09T13:53:39Z",
-          "link": "https://github.com/CircuitVerse/Blog/pull/256",
+          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
+          "occured_at": "2025-12-24T17:17:32Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
           "points": 5,
-          "contributor": "ghanshyam2005singh",
+          "contributor": "akshitvigg",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
         },
         {
           "type": "Issue opened",
-          "title": "Enhancement - Add hover-to-open functionality for \"Getting Started\" navbar dropdown",
-          "occured_at": "2025-12-24T11:44:46Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6501",
+          "title": "Fix grammar error - 'an CircuitVerse' should be 'a CircuitVerse' in LMS Integration",
+          "occured_at": "2025-12-14T14:03:50Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/460",
           "points": 1,
-          "contributor": "ghanshyam2005singh",
+          "contributor": "akshitvigg",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+        },
+        {
+          "type": "Issue opened",
+          "title": "Fix duplicated words in documentation files",
+          "occured_at": "2025-12-30T11:16:59Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/480",
+          "points": 1,
+          "contributor": "akshitvigg",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
         }
       ]
     },
@@ -2195,15 +2210,15 @@
       ]
     },
     {
-      "username": "akshitvigg",
+      "username": "ghanshyam2005singh",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4",
       "role": "Contributor",
-      "total_points": 8,
+      "total_points": 10,
       "activity_breakdown": {
         "PR opened": {
-          "count": 1,
-          "points": 2
+          "count": 2,
+          "points": 4
         },
         "PR merged": {
           "count": 1,
@@ -2216,12 +2231,12 @@
       },
       "daily_activity": [
         {
-          "date": "2025-12-14",
-          "count": 2,
-          "points": 3
+          "date": "2025-12-24",
+          "count": 3,
+          "points": 5
         },
         {
-          "date": "2025-12-24",
+          "date": "2025-12-09",
           "count": 1,
           "points": 5
         }
@@ -2229,33 +2244,43 @@
       "activities": [
         {
           "type": "PR opened",
-          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
-          "occured_at": "2025-12-14T14:20:24Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
+          "title": "feat - add hover functionality to Getting Started dropdown",
+          "occured_at": "2025-12-24T11:52:20Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6502",
           "points": 2,
-          "contributor": "akshitvigg",
+          "contributor": "ghanshyam2005singh",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
+        },
+        {
+          "type": "PR opened",
+          "title": "Fix - Update form control focus border and add green box-shadow",
+          "occured_at": "2025-12-24T08:52:11Z",
+          "link": "https://github.com/CircuitVerse/Blog/pull/258",
+          "points": 2,
+          "contributor": "ghanshyam2005singh",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
         },
         {
           "type": "PR merged",
-          "title": "Fix grammar error - change 'an CircuitVerse' to 'a CircuitVerse' in LMS integration docs",
-          "occured_at": "2025-12-24T17:17:32Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/461",
+          "title": "Fix - Button hover color now stays green (matches CircuitVerse scheme)",
+          "occured_at": "2025-12-09T13:53:39Z",
+          "link": "https://github.com/CircuitVerse/Blog/pull/256",
           "points": 5,
-          "contributor": "akshitvigg",
+          "contributor": "ghanshyam2005singh",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
         },
         {
           "type": "Issue opened",
-          "title": "Fix grammar error - 'an CircuitVerse' should be 'a CircuitVerse' in LMS Integration",
-          "occured_at": "2025-12-14T14:03:50Z",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/460",
+          "title": "Enhancement - Add hover-to-open functionality for \"Getting Started\" navbar dropdown",
+          "occured_at": "2025-12-24T11:44:46Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6501",
           "points": 1,
-          "contributor": "akshitvigg",
+          "contributor": "ghanshyam2005singh",
           "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4"
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/56252619?v=4"
         }
       ]
     },
@@ -2613,48 +2638,6 @@
           "contributor": "ViRUS-0-0",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/67628558?v=4"
-        }
-      ]
-    },
-    {
-      "username": "akritah",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/69254659?v=4",
-      "role": "Contributor",
-      "total_points": 4,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 2,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-09",
-          "count": 2,
-          "points": 4
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "title": "fix(ui) - prevent ElementsPanel from being dragged under Navbar (#260)",
-          "occured_at": "2025-12-09T11:11:45Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/691",
-          "points": 2,
-          "contributor": "akritah",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/69254659?v=4"
-        },
-        {
-          "type": "PR opened",
-          "title": "Fix/260 elements panel navbar overlap",
-          "occured_at": "2025-12-09T10:53:12Z",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/690",
-          "points": 2,
-          "contributor": "akritah",
-          "contributor_name": null,
-          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/69254659?v=4"
         }
       ]
     },
@@ -3876,6 +3859,38 @@
           "contributor": "DhananjayDogne",
           "contributor_name": null,
           "contributor_avatar_url": "https://avatars.githubusercontent.com/u/111991487?v=4"
+        }
+      ]
+    },
+    {
+      "username": "sujal-thakur01",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/161142634?v=4",
+      "role": "Contributor",
+      "total_points": 1,
+      "activity_breakdown": {
+        "Issue opened": {
+          "count": 1,
+          "points": 1
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2025-12-30",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "activities": [
+        {
+          "type": "Issue opened",
+          "title": "Improve macOS local setup documentation (Node.js, Redis, PostgreSQL, RSA keys)",
+          "occured_at": "2025-12-30T10:40:27Z",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6527",
+          "points": 1,
+          "contributor": "sujal-thakur01",
+          "contributor_name": null,
+          "contributor_avatar_url": "https://avatars.githubusercontent.com/u/161142634?v=4"
         }
       ]
     },

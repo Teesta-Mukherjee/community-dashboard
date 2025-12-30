@@ -1,15 +1,55 @@
 {
-  "updatedAt": 1767075859912,
+  "updatedAt": 1767097838423,
   "groups": [
     {
       "date": "2025-12-30",
       "items": [
+        {
+          "username": "senutpal",
+          "name": null,
+          "title": "docs - add workarounds for application.js and CRLF errors in troubleshooting guide",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6528",
+          "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
+          "points": 2
+        },
+        {
+          "username": "senutpal",
+          "name": null,
+          "title": "fix - resolve Tauri Desktop Release CI/CD failures on all platforms",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/706",
+          "avatar_url": "https://avatars.githubusercontent.com/u/168703537?v=4",
+          "points": 2
+        },
         {
           "username": "himanshujays29",
           "name": null,
           "title": "UI Bug - Contributor Username Overflows Profile Card",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/47",
           "avatar_url": "https://avatars.githubusercontent.com/u/158487820?v=4",
+          "points": 1
+        },
+        {
+          "username": "akshitvigg",
+          "name": null,
+          "title": "docs - fix duplicated words in documentation",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/481",
+          "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
+          "points": 2
+        },
+        {
+          "username": "akshitvigg",
+          "name": null,
+          "title": "Fix duplicated words in documentation files",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/480",
+          "avatar_url": "https://avatars.githubusercontent.com/u/156829501?v=4",
+          "points": 1
+        },
+        {
+          "username": "sujal-thakur01",
+          "name": null,
+          "title": "Improve macOS local setup documentation (Node.js, Redis, PostgreSQL, RSA keys)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6527",
+          "avatar_url": "https://avatars.githubusercontent.com/u/161142634?v=4",
           "points": 1
         }
       ]
