@@ -3,7 +3,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Trophy, GitPullRequest, GitMerge } from "lucide-react";
+import { Trophy, GitPullRequest, GitMerge, Calendar, TrendingUp } from "lucide-react";
 
 interface ContributorEntry {
   username: string;
@@ -47,6 +47,7 @@ const getPRIcon = (activity: string) => {
 };
 
 export function ContributorCard({
+
   contributor,
   onClick,
   showStats = true,
@@ -56,6 +57,12 @@ export function ContributorCard({
   )
     .filter(([activity]) => activity.includes("PR"))
     .slice(0, 2);
+  const activeDays = contributor.daily_activity?.length ?? 0;
+
+  const avgPerDay =
+    activeDays > 0
+      ? Math.round(contributor.total_points / activeDays)
+      : 0;
 
   return (
     <Card
@@ -88,7 +95,17 @@ export function ContributorCard({
               <span className="font-bold">{contributor.total_points}</span>
               <span className="text-muted-foreground">pts</span>
             </div>
+            <div className="flex items-center justify-center gap-4 text-xs text-muted-foreground mt-2 space-x-[-8px]">
+              <div className="flex items-center gap-1">
+                <Calendar className="w-3.5 h-3.5" />
+                <span>{activeDays}d</span>
+              </div>
 
+              <div className="flex items-center gap-1">
+                <TrendingUp className="w-3.5 h-3.5" />
+                <span>{avgPerDay}/day</span>
+              </div>
+            </div>
             {topActivities.length > 0 && (
               <div className="flex justify-center gap-2 mt-3">
                 {topActivities.map(([activity, data]) => (
