@@ -3,7 +3,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import { Trophy, GitPullRequest, GitMerge, Calendar, TrendingUp } from "lucide-react";
+import { Trophy, GitPullRequest, GitMerge, Calendar, TrendingUp, AlertCircle } from "lucide-react";
 
 interface ContributorEntry {
   username: string;
@@ -25,7 +25,7 @@ interface ContributorCardProps {
 
 /* ---------------- ORDER + ICON NORMALIZATION ---------------- */
 
-const ACTIVITY_ORDER = ["PR opened", "PR merged", "Issue opened"];
+const ACTIVITY_ORDER = ["PR merged", "PR opened", "Issue opened"];
 
 const sortActivities = (
   entries: [string, { count: number; points: number }][]
@@ -35,13 +35,16 @@ const sortActivities = (
       ACTIVITY_ORDER.indexOf(a) - ACTIVITY_ORDER.indexOf(b)
   );
 
-const getPRIcon = (activity: string) => {
+const getActivityIcon = (activity: string) => {
   const type = activity.toLowerCase();
   if (type.includes("merged")) {
     return <GitMerge className="w-3 h-3 text-purple-500" />;
   }
-  if (type.includes("opened")) {
+  if (type.includes("pr opened")) {
     return <GitPullRequest className="w-3 h-3 text-blue-600" />;
+  }
+  if (type.includes("issue")) {
+    return <AlertCircle className="w-3 h-3 text-orange-600" />;
   }
   return null;
 };
@@ -53,11 +56,15 @@ export function ContributorCard({
   variant = "grid",
   showStats = true,
 }: ContributorCardProps) {
-  const topActivities = sortActivities(
-    Object.entries(contributor.activity_breakdown)
-  )
-    .filter(([activity]) => activity.includes("PR"))
-    .slice(0, 2);
+  // Build ordered activities array with conditional inclusion
+  const topActivities: [string, { count: number; points: number }][] = [];
+  
+  ACTIVITY_ORDER.forEach(activityType => {
+    const activityData = contributor.activity_breakdown[activityType];
+    if (activityData && activityData.count > 0) {
+      topActivities.push([activityType, activityData]);
+    }
+  });
   const activeDays = contributor.daily_activity?.length ?? 0;
 
   const avgPerDay =
@@ -116,7 +123,7 @@ export function ContributorCard({
                     key={activity}
                     className="flex items-center gap-1 px-2 py-1 rounded-full bg-muted text-xs"
                   >
-                    {getPRIcon(activity)}
+                    {getActivityIcon(activity)}
                     <span className="font-medium">{data.count}</span>
                   </div>
                 ))}
