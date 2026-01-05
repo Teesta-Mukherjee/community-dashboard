@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1767637291439,
+  "updatedAt": 1767639343223,
   "groups": [
     [
       "2025-12-31",
@@ -441,6 +441,14 @@
         {
           "username": "naman79820",
           "name": null,
+          "title": "Review on PR #130",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/130",
+          "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
+          "points": 4
+        },
+        {
+          "username": "naman79820",
+          "name": null,
           "title": "Review on PR #127",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/127",
           "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
@@ -533,6 +541,14 @@
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/122",
           "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
           "points": 2
+        },
+        {
+          "username": "Me-Priyank",
+          "name": null,
+          "title": "Added concurrency control to prevent race conditions",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/130",
+          "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
+          "points": 5
         },
         {
           "username": "Me-Priyank",
@@ -693,6 +709,22 @@
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/717",
           "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
           "points": 1
+        },
+        {
+          "username": "RiyaS905",
+          "name": null,
+          "title": "Refactor Gemfile by adding and removing gems",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6566",
+          "avatar_url": "https://avatars.githubusercontent.com/u/184746190?v=4",
+          "points": 2
+        },
+        {
+          "username": "RiyaS905",
+          "name": null,
+          "title": "Refactor devcontainer.json for improved structure",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6565",
+          "avatar_url": "https://avatars.githubusercontent.com/u/184746190?v=4",
+          "points": 2
         },
         {
           "username": "sengmonkham",
@@ -2138,19 +2170,19 @@
           "points": 1
         },
         {
-          "username": "themradul07",
-          "name": null,
-          "title": "Issue 34 - Added Dropdown Filters",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/39",
-          "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
-          "points": 2
-        },
-        {
           "username": "RiyaS905",
           "name": null,
           "title": "Fix UI alignment for grading scale and restriction checkboxes",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6515",
           "avatar_url": "https://avatars.githubusercontent.com/u/184746190?v=4",
+          "points": 2
+        },
+        {
+          "username": "themradul07",
+          "name": null,
+          "title": "Issue 34 - Added Dropdown Filters",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/39",
+          "avatar_url": "https://avatars.githubusercontent.com/u/171602531?v=4",
           "points": 2
         }
       ]

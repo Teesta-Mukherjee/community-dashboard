@@ -1,7 +1,7 @@
 {
   "period": "year",
-  "updatedAt": 1767637291426,
-  "lastFetchedAt": 1767637291426,
+  "updatedAt": 1767639343212,
+  "lastFetchedAt": 1767639343212,
   "startDate": "2025-01-05",
   "endDate": "2026-01-05",
   "hiddenRoles": [],
@@ -5700,7 +5700,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 137,
+      "total_points": 141,
       "activity_breakdown": {
         "PR opened": {
           "count": 26,
@@ -5715,15 +5715,15 @@
           "points": 21
         },
         "Review submitted": {
-          "count": 6,
-          "points": 24
+          "count": 7,
+          "points": 28
         }
       },
       "daily_activity": [
         {
           "date": "2026-01-05",
-          "count": 9,
-          "points": 32
+          "count": 10,
+          "points": 36
         },
         {
           "date": "2026-01-04",
@@ -5897,6 +5897,13 @@
           "title": "UI issue in Sort By dropdown (Contributor / Maintainer section)",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/123",
           "points": 1
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-01-05T18:54:09Z",
+          "title": "Review on PR #130",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/130",
+          "points": 4
         },
         {
           "type": "Review submitted",
@@ -8807,6 +8814,251 @@
       ]
     },
     {
+      "username": "Me-Priyank",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
+      "role": "Contributor",
+      "total_points": 67,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 10,
+          "points": 20
+        },
+        "PR merged": {
+          "count": 8,
+          "points": 40
+        },
+        "Issue opened": {
+          "count": 7,
+          "points": 7
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-01-05",
+          "count": 8,
+          "points": 23
+        },
+        {
+          "date": "2026-01-03",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-01-02",
+          "count": 1,
+          "points": 5
+        },
+        {
+          "date": "2026-01-01",
+          "count": 4,
+          "points": 5
+        },
+        {
+          "date": "2025-12-30",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-12-28",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-26",
+          "count": 2,
+          "points": 7
+        },
+        {
+          "date": "2025-12-25",
+          "count": 5,
+          "points": 16
+        },
+        {
+          "date": "2025-12-24",
+          "count": 1,
+          "points": 1
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T18:10:21Z",
+          "title": "Added concurrency control to prevent race conditions",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/130",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T11:55:29Z",
+          "title": "Dropdown UI fix",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/125",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T10:35:33Z",
+          "title": "package-lock.json removed from .gitignore and tsconfig.tsbuildinfo added",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/122",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-05T18:54:16Z",
+          "title": "Added concurrency control to prevent race conditions",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/130",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-05T12:33:58Z",
+          "title": "Dropdown UI fix",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/125",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-05T11:23:05Z",
+          "title": "package-lock.json removed from .gitignore and tsconfig.tsbuildinfo added",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/122",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T12:59:30Z",
+          "title": "Bug (CI correctness) - Add concurrency control to prevent parallel leaderboard generation runs",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/126",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T06:58:51Z",
+          "title": "Remove package-lock.json from .gitignore to ensure reproducible builds and improve security",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/119",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-30T19:50:11Z",
+          "title": "Contributor UI enhancement",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/51",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-28T11:04:21Z",
+          "title": "UI bug fix",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6518",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-26T05:53:43Z",
+          "title": "pagination UI enhancement, fix #17",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/18",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-25T16:28:33Z",
+          "title": "hover effect added to page navigation buttons",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/10",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-25T12:05:18Z",
+          "title": "Pagination implemented",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/1",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-25T07:53:36Z",
+          "title": "#472 fixed (proper optimization implemented)",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/473",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-01T19:35:06Z",
+          "title": "Preserve scroll position",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/66",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-12-26T14:09:02Z",
+          "title": "pagination UI enhancement, fix #17",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/18",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-12-25T18:43:02Z",
+          "title": "hover effect added to page navigation buttons",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/10",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-12-25T13:32:45Z",
+          "title": "Pagination implemented",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/1",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-03T09:35:13Z",
+          "title": "Preserve scroll position",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/66",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-02T17:15:01Z",
+          "title": "Contributor UI enhancement",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/51",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-28T10:39:09Z",
+          "title": "🐞 Bug - Teachers page (/teachers) has unintended horizontal scrolling",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6517",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-24T18:06:26Z",
+          "title": "Docs Website Performance Issue - Large Unused JavaScript & CSS and Low Code Coverage (27%)",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/472",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-01T19:30:25Z",
+          "title": "Preserve scroll position on /people when navigating back from contributor view",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/65",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-01T12:23:47Z",
+          "title": "Broken navigation when opening contributor profile from /people",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/60",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-01T12:23:24Z",
+          "title": "Broken navigation when opening contributor profile from /people",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/59",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "aryanndwi123",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/100300789?v=4",
@@ -9419,244 +9671,6 @@
           "title": "Review on PR #466",
           "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/466",
           "points": 4
-        }
-      ]
-    },
-    {
-      "username": "Me-Priyank",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
-      "role": "Contributor",
-      "total_points": 62,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 10,
-          "points": 20
-        },
-        "PR merged": {
-          "count": 7,
-          "points": 35
-        },
-        "Issue opened": {
-          "count": 7,
-          "points": 7
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-01-05",
-          "count": 7,
-          "points": 18
-        },
-        {
-          "date": "2026-01-03",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-01-02",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-01-01",
-          "count": 4,
-          "points": 5
-        },
-        {
-          "date": "2025-12-30",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-12-28",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-12-26",
-          "count": 2,
-          "points": 7
-        },
-        {
-          "date": "2025-12-25",
-          "count": 5,
-          "points": 16
-        },
-        {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 1
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-05T18:10:21Z",
-          "title": "Added concurrency control to prevent race conditions",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/130",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-05T11:55:29Z",
-          "title": "Dropdown UI fix",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/125",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-05T10:35:33Z",
-          "title": "package-lock.json removed from .gitignore and tsconfig.tsbuildinfo added",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/122",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-05T12:33:58Z",
-          "title": "Dropdown UI fix",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/125",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-05T11:23:05Z",
-          "title": "package-lock.json removed from .gitignore and tsconfig.tsbuildinfo added",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/122",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T12:59:30Z",
-          "title": "Bug (CI correctness) - Add concurrency control to prevent parallel leaderboard generation runs",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/126",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T06:58:51Z",
-          "title": "Remove package-lock.json from .gitignore to ensure reproducible builds and improve security",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/119",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-30T19:50:11Z",
-          "title": "Contributor UI enhancement",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/51",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-28T11:04:21Z",
-          "title": "UI bug fix",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6518",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-26T05:53:43Z",
-          "title": "pagination UI enhancement, fix #17",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/18",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-25T16:28:33Z",
-          "title": "hover effect added to page navigation buttons",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/10",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-25T12:05:18Z",
-          "title": "Pagination implemented",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/1",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-25T07:53:36Z",
-          "title": "#472 fixed (proper optimization implemented)",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/473",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-01T19:35:06Z",
-          "title": "Preserve scroll position",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/66",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-12-26T14:09:02Z",
-          "title": "pagination UI enhancement, fix #17",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/18",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-12-25T18:43:02Z",
-          "title": "hover effect added to page navigation buttons",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/10",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-12-25T13:32:45Z",
-          "title": "Pagination implemented",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/1",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-03T09:35:13Z",
-          "title": "Preserve scroll position",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/66",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-02T17:15:01Z",
-          "title": "Contributor UI enhancement",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/51",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-28T10:39:09Z",
-          "title": "🐞 Bug - Teachers page (/teachers) has unintended horizontal scrolling",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6517",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-24T18:06:26Z",
-          "title": "Docs Website Performance Issue - Large Unused JavaScript & CSS and Low Code Coverage (27%)",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/472",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-01T19:30:25Z",
-          "title": "Preserve scroll position on /people when navigating back from contributor view",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/65",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-01T12:23:47Z",
-          "title": "Broken navigation when opening contributor profile from /people",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/60",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-01T12:23:24Z",
-          "title": "Broken navigation when opening contributor profile from /people",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/59",
-          "points": 1
         }
       ]
     },
@@ -17653,6 +17667,54 @@
       ]
     },
     {
+      "username": "RiyaS905",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/184746190?v=4",
+      "role": "Contributor",
+      "total_points": 6,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 6
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-01-05",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2025-12-28",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T18:37:12Z",
+          "title": "Refactor Gemfile by adding and removing gems",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6566",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T18:22:02Z",
+          "title": "Refactor devcontainer.json for improved structure",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6565",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-28T08:34:36Z",
+          "title": "Fix UI alignment for grading scale and restriction checkboxes",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6515",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "Recxsmacx",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/175395700?v=4",
@@ -21240,35 +21302,6 @@
           "occured_at": "2025-12-29T15:41:58Z",
           "title": "Fix - Use modern beforeunload API to prevent blocked alert dialog (#6519)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6525",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "RiyaS905",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/184746190?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-28",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-28T08:34:36Z",
-          "title": "Fix UI alignment for grading scale and restriction checkboxes",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6515",
           "points": 2
         }
       ]

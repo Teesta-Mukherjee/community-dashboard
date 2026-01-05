@@ -1,6 +1,6 @@
 {
   "period": "month",
-  "updatedAt": 1767637291435,
+  "updatedAt": 1767639343220,
   "startDate": "2025-12-06",
   "endDate": "2026-01-05",
   "hiddenRoles": [],
@@ -11,7 +11,7 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?v=4",
       "role": "Contributor",
-      "total_points": 87,
+      "total_points": 91,
       "activity_breakdown": {
         "PR opened": {
           "count": 10,
@@ -26,15 +26,15 @@
           "points": 13
         },
         "Review submitted": {
-          "count": 6,
-          "points": 24
+          "count": 7,
+          "points": 28
         }
       },
       "daily_activity": [
         {
           "date": "2026-01-05",
-          "count": 9,
-          "points": 32
+          "count": 10,
+          "points": 36
         },
         {
           "date": "2025-12-30",
@@ -123,6 +123,13 @@
           "title": "UI issue in Sort By dropdown (Contributor / Maintainer section)",
           "link": "https://github.com/CircuitVerse/community-dashboard/issues/123",
           "points": 1
+        },
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-01-05T18:54:09Z",
+          "title": "Review on PR #130",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/130",
+          "points": 4
         },
         {
           "type": "Review submitted",
@@ -1157,15 +1164,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?v=4",
       "role": "Contributor",
-      "total_points": 62,
+      "total_points": 67,
       "activity_breakdown": {
         "PR opened": {
           "count": 10,
           "points": 20
         },
         "PR merged": {
-          "count": 7,
-          "points": 35
+          "count": 8,
+          "points": 40
         },
         "Issue opened": {
           "count": 7,
@@ -1175,8 +1182,8 @@
       "daily_activity": [
         {
           "date": "2026-01-05",
-          "count": 7,
-          "points": 18
+          "count": 8,
+          "points": 23
         },
         {
           "date": "2025-12-30",
@@ -1240,6 +1247,13 @@
           "title": "package-lock.json removed from .gitignore and tsconfig.tsbuildinfo added",
           "link": "https://github.com/CircuitVerse/community-dashboard/pull/122",
           "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-05T18:54:16Z",
+          "title": "Added concurrency control to prevent race conditions",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/130",
+          "points": 5
         },
         {
           "type": "PR merged",
@@ -4154,6 +4168,54 @@
       ]
     },
     {
+      "username": "RiyaS905",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/184746190?v=4",
+      "role": "Contributor",
+      "total_points": 6,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 3,
+          "points": 6
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-01-05",
+          "count": 2,
+          "points": 4
+        },
+        {
+          "date": "2025-12-28",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T18:37:12Z",
+          "title": "Refactor Gemfile by adding and removing gems",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6566",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T18:22:02Z",
+          "title": "Refactor devcontainer.json for improved structure",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6565",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-28T08:34:36Z",
+          "title": "Fix UI alignment for grading scale and restriction checkboxes",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6515",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "Agarwalchetan",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/182099875?v=4",
@@ -5092,35 +5154,6 @@
           "occured_at": "2025-12-29T15:41:58Z",
           "title": "Fix - Use modern beforeunload API to prevent blocked alert dialog (#6519)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6525",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "RiyaS905",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/184746190?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2025-12-28",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-28T08:34:36Z",
-          "title": "Fix UI alignment for grading scale and restriction checkboxes",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6515",
           "points": 2
         }
       ]
