@@ -242,32 +242,32 @@ export default function PeoplePage() {
             members={alumni}
             teamType="alumni"
           />
+              <section id="contributors" className="mb-8">
+  <div className="text-center mb-8">
+    <h2 className="text-3xl font-bold mb-4">
+      <span className="text-black dark:text-white">Community </span>
+      <span className="text-[#42B883]">Contributors</span>
+    </h2>
+    <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+      Amazing community members who contribute to CircuitVerse through
+      code, documentation, and more.
+    </p>
+  </div>
 
-          <div className="mb-8">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold mb-4">
-                <span className="text-black dark:text-white">Community </span>
-                <span className="text-[#42B883]">Contributors</span>
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Amazing community members who contribute to CircuitVerse through
-                code, documentation, and more.
-              </p>
-            </div>
-            <div className="flex flex-col gap-4">
-              <PeopleStats
-                contributors={people}
-                onContributorClick={handleContributorClick}
-              />
+  <div className="flex flex-col gap-4">
+    <PeopleStats
+      contributors={people}
+      onContributorClick={handleContributorClick}
+    />
 
-              <PeopleGrid
-                contributors={people}
-                onContributorClick={handleContributorClick}
-                viewMode="grid"
-                loading={false}
-              />
-            </div>
-          </div>
+    <PeopleGrid
+      contributors={people}
+      onContributorClick={handleContributorClick}
+      viewMode="grid"
+      loading={false}
+    />
+  </div>
+</section>
         </>
       )}
     </div>
