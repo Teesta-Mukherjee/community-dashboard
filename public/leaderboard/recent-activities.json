@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1767766954568,
+  "updatedAt": 1767788942351,
   "groups": [
     [
       "2026-01-06",
@@ -1795,14 +1795,6 @@
           "points": 5
         },
         {
-          "username": "ShashwatXD",
-          "name": null,
-          "title": "chore(web) - replace generic icons and enable web CI validation",
-          "link": "https://github.com/CircuitVerse/mobile-app/pull/458",
-          "avatar_url": "https://avatars.githubusercontent.com/u/71784456?v=4",
-          "points": 2
-        },
-        {
           "username": "Yana-do-code",
           "name": null,
           "title": "Update - copyright year to 2026",
@@ -1825,6 +1817,14 @@
           "link": "https://github.com/CircuitVerse/Blog/issues/259",
           "avatar_url": "https://avatars.githubusercontent.com/u/173885830?v=4",
           "points": 1
+        },
+        {
+          "username": "ShashwatXD",
+          "name": null,
+          "title": "chore(web) - replace generic icons and enable web CI validation",
+          "link": "https://github.com/CircuitVerse/mobile-app/pull/458",
+          "avatar_url": "https://avatars.githubusercontent.com/u/71784456?v=4",
+          "points": 2
         },
         {
           "username": "yashveer-1",
@@ -2974,6 +2974,19 @@
           "title": "Fix - Use modern beforeunload API to prevent blocked alert dialog (#6519)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6525",
           "avatar_url": "https://avatars.githubusercontent.com/u/111638785?v=4",
+          "points": 2
+        }
+      ]
+    ],
+    [
+      "2026-01-07",
+      [
+        {
+          "username": "Yana-do-code",
+          "name": null,
+          "title": "ci - re-enable Windows builds in Tauri release workflow",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/730",
+          "avatar_url": "https://avatars.githubusercontent.com/u/173885830?v=4",
           "points": 2
         }
       ]
