@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1767810079809,
-  "lastFetchedAt": 1767810079809,
-  "startDate": "2025-01-07",
-  "endDate": "2026-01-07",
+  "updatedAt": 1767834236865,
+  "lastFetchedAt": 1767834236865,
+  "startDate": "2025-01-08",
+  "endDate": "2026-01-08",
   "hiddenRoles": [],
   "topByActivity": {},
   "entries": [
@@ -3797,11 +3797,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/159947791?u=c48301089f863779d54d2227553923ff284ac6a4&v=4",
       "role": "Contributor",
-      "total_points": 199,
+      "total_points": 203,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 18,
-          "points": 72
+          "count": 19,
+          "points": 76
         },
         "PR opened": {
           "count": 28,
@@ -3819,8 +3819,8 @@
       "daily_activity": [
         {
           "date": "2026-01-07",
-          "count": 3,
-          "points": 12
+          "count": 4,
+          "points": 16
         },
         {
           "date": "2026-01-06",
@@ -3984,6 +3984,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-01-07T20:07:18Z",
+          "title": "Review on PR #141",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/141",
+          "points": 4
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-01-07T17:28:53Z",
@@ -11663,6 +11670,247 @@
       ]
     },
     {
+      "username": "SouparnaChatterjee",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4",
+      "role": "Contributor",
+      "total_points": 49,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 10,
+          "points": 20
+        },
+        "PR merged": {
+          "count": 4,
+          "points": 20
+        },
+        "Issue opened": {
+          "count": 9,
+          "points": 9
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-01-07",
+          "count": 3,
+          "points": 8
+        },
+        {
+          "date": "2026-01-06",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-01-05",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2026-01-04",
+          "count": 4,
+          "points": 9
+        },
+        {
+          "date": "2026-01-03",
+          "count": 5,
+          "points": 11
+        },
+        {
+          "date": "2025-12-26",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2025-12-25",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-12-24",
+          "count": 1,
+          "points": 1
+        },
+        {
+          "date": "2025-11-19",
+          "count": 3,
+          "points": 9
+        },
+        {
+          "date": "2025-11-16",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2025-11-14",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-07T20:37:36Z",
+          "title": "Feature/improve clear button hover",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/151",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-07T20:08:13Z",
+          "title": "docs - add badges, features, screenshots, and quick links to README",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/141",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-07T19:11:19Z",
+          "title": "Feature - Improve Clear button hover/active states",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/150",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-06T17:43:43Z",
+          "title": "docs - add badges, features, screenshots, and quick links to README",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/141",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T04:27:59Z",
+          "title": "Docs - Improve README with screenshots, badges, and features section",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/118",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-11-19T15:14:48Z",
+          "title": "Feature/quiz feedback 704",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/736",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-11-19T08:06:36Z",
+          "title": "fix - update copyright year to 2025 in documentation",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/733",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-11-16T06:17:55Z",
+          "title": "refactor(simulator) - clean up EventQueue implementation and add TS types",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/678",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-11-14T15:01:31Z",
+          "title": "feat - add Sentry integration to simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/676",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2025-12-26T20:24:59Z",
+          "title": "feat(simulator) - add confirmation dialog before clearing canvas",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/702",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-04T13:03:20Z",
+          "title": "feat - improve empty state UI with search icon, suggestions, and clear button",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/106",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-03T18:26:17Z",
+          "title": "feat - make contributor avatar clickable to GitHub profile",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/93",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-03T15:35:21Z",
+          "title": "docs(chapter1) - improve introduction page readability and accessibility",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/488",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2025-11-19T08:34:30Z",
+          "title": "fix - update copyright year to 2025 in documentation",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/733",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-04T16:13:13Z",
+          "title": "feat - improve empty state UI with search icon, suggestions, and clear button",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/106",
+          "points": 5
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-03T20:31:57Z",
+          "title": "feat - make contributor avatar clickable to GitHub profile",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/93",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-26T19:31:59Z",
+          "title": "Feature - Add confirmation dialog before clearing Vue simulator canvas",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/701",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-25T16:07:24Z",
+          "title": "Drag panel position handling & text-selection behavior in Vue simulator",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/699",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2025-12-24T13:38:03Z",
+          "title": "perf - improve draggable panel performance in simulator",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6504",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-04T16:33:46Z",
+          "title": "Feature - Add share button to leaderboard page",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/108",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-04T07:51:12Z",
+          "title": "Feature - Improve empty state UI when no search results found",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/98",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-03T16:33:28Z",
+          "title": "Feature - Make contributor profile picture clickable to GitHub profile",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/90",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-03T12:09:53Z",
+          "title": "Improve readability, grammar, and MDX best practices in Chapter 1 Introduction",
+          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/487",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "Jay2006sawant",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/180036822?v=4",
@@ -12183,221 +12431,6 @@
           "title": "Fix undefined method 'project_url' error in JSON jbuilder",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/6431",
           "points": 5
-        }
-      ]
-    },
-    {
-      "username": "SouparnaChatterjee",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/115988950?v=4",
-      "role": "Contributor",
-      "total_points": 41,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 9,
-          "points": 18
-        },
-        "Issue opened": {
-          "count": 8,
-          "points": 8
-        },
-        "PR merged": {
-          "count": 3,
-          "points": 15
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-01-06",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-01-05",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2026-01-04",
-          "count": 4,
-          "points": 9
-        },
-        {
-          "date": "2026-01-03",
-          "count": 5,
-          "points": 11
-        },
-        {
-          "date": "2025-12-26",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2025-12-25",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-12-24",
-          "count": 1,
-          "points": 1
-        },
-        {
-          "date": "2025-11-19",
-          "count": 3,
-          "points": 9
-        },
-        {
-          "date": "2025-11-16",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2025-11-14",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-06T17:43:43Z",
-          "title": "docs - add badges, features, screenshots, and quick links to README",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/141",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T04:27:59Z",
-          "title": "Docs - Improve README with screenshots, badges, and features section",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/118",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-11-19T15:14:48Z",
-          "title": "Feature/quiz feedback 704",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/736",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-11-19T08:06:36Z",
-          "title": "fix - update copyright year to 2025 in documentation",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/733",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-11-16T06:17:55Z",
-          "title": "refactor(simulator) - clean up EventQueue implementation and add TS types",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/678",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-11-14T15:01:31Z",
-          "title": "feat - add Sentry integration to simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/676",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2025-12-26T20:24:59Z",
-          "title": "feat(simulator) - add confirmation dialog before clearing canvas",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/702",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-04T13:03:20Z",
-          "title": "feat - improve empty state UI with search icon, suggestions, and clear button",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/106",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-03T18:26:17Z",
-          "title": "feat - make contributor avatar clickable to GitHub profile",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/93",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-03T15:35:21Z",
-          "title": "docs(chapter1) - improve introduction page readability and accessibility",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/pull/488",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2025-11-19T08:34:30Z",
-          "title": "fix - update copyright year to 2025 in documentation",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/733",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-04T16:13:13Z",
-          "title": "feat - improve empty state UI with search icon, suggestions, and clear button",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/106",
-          "points": 5
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-03T20:31:57Z",
-          "title": "feat - make contributor avatar clickable to GitHub profile",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/93",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-26T19:31:59Z",
-          "title": "Feature - Add confirmation dialog before clearing Vue simulator canvas",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/701",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-25T16:07:24Z",
-          "title": "Drag panel position handling & text-selection behavior in Vue simulator",
-          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/699",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2025-12-24T13:38:03Z",
-          "title": "perf - improve draggable panel performance in simulator",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6504",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-04T16:33:46Z",
-          "title": "Feature - Add share button to leaderboard page",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/108",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-04T07:51:12Z",
-          "title": "Feature - Improve empty state UI when no search results found",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/98",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-03T16:33:28Z",
-          "title": "Feature - Make contributor profile picture clickable to GitHub profile",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/90",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-03T12:09:53Z",
-          "title": "Improve readability, grammar, and MDX best practices in Chapter 1 Introduction",
-          "link": "https://github.com/CircuitVerse/CircuitVerseDocs/issues/487",
-          "points": 1
         }
       ]
     },
@@ -14065,6 +14098,133 @@
       ]
     },
     {
+      "username": "Ayush1169",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/188789872?v=4",
+      "role": "Contributor",
+      "total_points": 23,
+      "activity_breakdown": {
+        "PR merged": {
+          "count": 2,
+          "points": 10
+        },
+        "Issue opened": {
+          "count": 5,
+          "points": 5
+        },
+        "PR opened": {
+          "count": 4,
+          "points": 8
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-01-07",
+          "count": 2,
+          "points": 6
+        },
+        {
+          "date": "2026-01-06",
+          "count": 1,
+          "points": 2
+        },
+        {
+          "date": "2026-01-05",
+          "count": 2,
+          "points": 3
+        },
+        {
+          "date": "2026-01-04",
+          "count": 3,
+          "points": 7
+        },
+        {
+          "date": "2026-01-03",
+          "count": 3,
+          "points": 5
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-07T17:29:00Z",
+          "title": "implimented search function in people module",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/142",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-07T21:50:37Z",
+          "title": "Leaderboard points do not update according to selected activity filters",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/152",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-06T18:12:52Z",
+          "title": "implimented search function in people module",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/142",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-05T07:03:07Z",
+          "title": "feat - add dynamic releases page with contributor recognition",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/120",
+          "points": 2
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-05T09:31:26Z",
+          "title": "Add search functionality to the People page",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/121",
+          "points": 1
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-03T10:49:21Z",
+          "title": "Add debounced search to leaderboard for improved performance",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/85",
+          "points": 2
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-01-03T06:58:33Z",
+          "title": "fix - remove black hover from back button in username section issue #64",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/81",
+          "points": 2
+        },
+        {
+          "type": "PR merged",
+          "occured_at": "2026-01-04T11:12:58Z",
+          "title": "Add debounced search to leaderboard for improved performance",
+          "link": "https://github.com/CircuitVerse/community-dashboard/pull/85",
+          "points": 5
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-04T09:04:12Z",
+          "title": "Make Recent Activity items fully clickable (title & avatar)",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/102",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-04T08:13:39Z",
+          "title": "Make leaderboard activity badges clickable to GitHub",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/100",
+          "points": 1
+        },
+        {
+          "type": "Issue opened",
+          "occured_at": "2026-01-03T09:56:28Z",
+          "title": "Improve leaderboard search performance by adding debounce",
+          "link": "https://github.com/CircuitVerse/community-dashboard/issues/83",
+          "points": 1
+        }
+      ]
+    },
+    {
       "username": "Avichal296",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/175140538?v=4",
@@ -14404,126 +14564,6 @@
           "occured_at": "2025-09-10T09:23:39Z",
           "title": "Incorrect text alignment for RTL languages",
           "link": "https://github.com/CircuitVerse/CircuitVerse/issues/6054",
-          "points": 1
-        }
-      ]
-    },
-    {
-      "username": "Ayush1169",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/188789872?v=4",
-      "role": "Contributor",
-      "total_points": 22,
-      "activity_breakdown": {
-        "PR merged": {
-          "count": 2,
-          "points": 10
-        },
-        "PR opened": {
-          "count": 4,
-          "points": 8
-        },
-        "Issue opened": {
-          "count": 4,
-          "points": 4
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-01-07",
-          "count": 1,
-          "points": 5
-        },
-        {
-          "date": "2026-01-06",
-          "count": 1,
-          "points": 2
-        },
-        {
-          "date": "2026-01-05",
-          "count": 2,
-          "points": 3
-        },
-        {
-          "date": "2026-01-04",
-          "count": 3,
-          "points": 7
-        },
-        {
-          "date": "2026-01-03",
-          "count": 3,
-          "points": 5
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-07T17:29:00Z",
-          "title": "implimented search function in people module",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/142",
-          "points": 5
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-06T18:12:52Z",
-          "title": "implimented search function in people module",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/142",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-05T07:03:07Z",
-          "title": "feat - add dynamic releases page with contributor recognition",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/120",
-          "points": 2
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-05T09:31:26Z",
-          "title": "Add search functionality to the People page",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/121",
-          "points": 1
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-03T10:49:21Z",
-          "title": "Add debounced search to leaderboard for improved performance",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/85",
-          "points": 2
-        },
-        {
-          "type": "PR opened",
-          "occured_at": "2026-01-03T06:58:33Z",
-          "title": "fix - remove black hover from back button in username section issue #64",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/81",
-          "points": 2
-        },
-        {
-          "type": "PR merged",
-          "occured_at": "2026-01-04T11:12:58Z",
-          "title": "Add debounced search to leaderboard for improved performance",
-          "link": "https://github.com/CircuitVerse/community-dashboard/pull/85",
-          "points": 5
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-04T09:04:12Z",
-          "title": "Make Recent Activity items fully clickable (title & avatar)",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/102",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-04T08:13:39Z",
-          "title": "Make leaderboard activity badges clickable to GitHub",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/100",
-          "points": 1
-        },
-        {
-          "type": "Issue opened",
-          "occured_at": "2026-01-03T09:56:28Z",
-          "title": "Improve leaderboard search performance by adding debounce",
-          "link": "https://github.com/CircuitVerse/community-dashboard/issues/83",
           "points": 1
         }
       ]
