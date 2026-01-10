@@ -260,7 +260,6 @@ const filteredPeople = useMemo(() => {
             members={alumni}
             teamType="alumni"
           />
-              <section id="contributors" className="mb-8">
  
 <section id="contributors" className="mb-8">
   {/* TITLE + SEARCH ROW */}
