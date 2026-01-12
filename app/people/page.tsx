@@ -52,6 +52,7 @@ async function fetchPeople(): Promise<PeopleResponse> {
     return { updatedAt: 0, people: [], coreTeam: [], alumni: [] };
   }
 }
+
 export default function PeoplePage() {
   const [people, setPeople] = useState<ContributorEntry[]>([]);
   const [coreTeam, setCoreTeam] = useState<TeamMember[]>([]);
@@ -61,6 +62,18 @@ export default function PeoplePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  
+      useEffect(() => {
+  if (!loading && window.location.hash === "#contributors") {
+    const el = document.getElementById("contributors");
+    if (el) {
+      // small timeout ensures layout is settled
+      setTimeout(() => {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 50);
+    }
+  }
+}, [loading]);
 
 
   // Use scroll restoration hook - active when no contributor is selected (list view)
