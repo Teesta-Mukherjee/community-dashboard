@@ -76,23 +76,30 @@ const Navbar = ({ config }: NavbarProps) => {
               );
             })}
           </nav>
-          <div className="flex items-center gap-4">
-            <Link
-              href="https://github.com/CircuitVerse/community-dashboard"
-              target="_blank"
-            >
-              <Button variant={"outline"} size={"icon"}>
-                <Image
-                  src="/github.svg"
-                  alt="GitHub"
-                  width={17}
-                  height={17}
-                  className="dark:invert cursor-pointer hover:opacity-80 transition-opacity"
-                />
-              </Button>
-            </Link>
-            <ThemeSelector />
-          </div>
+         <div className="flex items-center gap-3">
+  <Link
+    href="https://github.com/CircuitVerse/community-dashboard"
+    target="_blank"
+  >
+    <Button
+      size="icon"
+      variant="ghost"
+      className="rounded-xl border border-zinc-200/60 dark:border-white/10 bg-white/30 dark:bg-white/5 backdrop-blur-md shadow-sm hover:bg-white/40 dark:hover:bg-white/10 transition"
+    >
+      <Image
+        src="/github.svg"
+        alt="GitHub"
+        width={17}
+        height={17}
+        className="dark:invert"
+      />
+    </Button>
+  </Link>
+
+  <div className="rounded-xl border border-zinc-200/60 dark:border-white/10 bg-white/30 dark:bg-white/5 backdrop-blur-md shadow-sm hover:bg-white/40 dark:hover:bg-white/10 transition">
+    <ThemeSelector />
+  </div>
+</div> 
         </div>
       </header>
 
