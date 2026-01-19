@@ -74,14 +74,16 @@ const Navbar = ({ config }: NavbarProps) => {
           </nav>
 
           <div className="flex items-center gap-3">
-            <Link
-              href="https://github.com/CircuitVerse/community-dashboard"
-              target="_blank"
+            <Button
+              asChild
+              size="icon"
+              variant="ghost"
+              className={`${actionBtnClass} h-10 w-10 p-0`}
             >
-              <Button
-                size="icon"
-                variant="ghost"
-                className={`${actionBtnClass} h-10 w-10 p-0`}
+              <a
+                href="https://github.com/CircuitVerse/community-dashboard"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Image
                   src="/github.svg"
@@ -90,8 +92,8 @@ const Navbar = ({ config }: NavbarProps) => {
                   height={17}
                   className="dark:invert"
                 />
-              </Button>
-            </Link>
+              </a>
+            </Button>
 
             <div
               className={`${actionBtnClass} h-10 w-10 flex items-center justify-center`}
@@ -105,7 +107,7 @@ const Navbar = ({ config }: NavbarProps) => {
       {/* Mobile Navbar */}
       <nav
         className={`md:hidden fixed bottom-4 left-1/2 transition-transform duration-400 ease-in-out -translate-x-1/2 z-50 ${
-          scrollDirection === "down" ? "translate-y-50" : "translate-y-0"
+          scrollDirection === "down" ? "translate-y-[50px]" : "translate-y-0"
         }`}
       >
         <div className="flex items-center gap-1 rounded-full border border-zinc-200 dark:border-white/10 bg-background/90 backdrop-blur-xl shadow-xl p-1">
