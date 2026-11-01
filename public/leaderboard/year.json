@@ -1,9 +1,9 @@
 {
   "period": "year",
-  "updatedAt": 1793417655747,
-  "lastFetchedAt": 1793417655747,
-  "startDate": "2025-10-31",
-  "endDate": "2026-10-31",
+  "updatedAt": 1793504438359,
+  "lastFetchedAt": 1793504438359,
+  "startDate": "2025-11-01",
+  "endDate": "2026-11-01",
   "hiddenRoles": [],
   "topByActivity": {},
   "entries": [
@@ -4213,11 +4213,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/3112976?v=4",
       "role": "Maintainer",
-      "total_points": 878,
+      "total_points": 879,
       "activity_breakdown": {
         "Issue closed": {
-          "count": 378,
-          "points": 378
+          "count": 379,
+          "points": 379
         },
         "Issue opened": {
           "count": 51,
@@ -4243,8 +4243,8 @@
       "daily_activity": [
         {
           "date": "2026-10-31",
-          "count": 2,
-          "points": 2
+          "count": 3,
+          "points": 3
         },
         {
           "date": "2026-10-28",
@@ -4878,6 +4878,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-31T10:14:16Z",
+          "title": "Closed issue #1482 - Performance - Batch Canvas Grid Dot Drawing to Reduce Redundant Canvas Calls",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/1482",
+          "points": 1
+        },
         {
           "type": "Issue closed",
           "occured_at": "2026-10-31T03:10:22Z",
@@ -8833,11 +8840,11 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/143987856?u=6426025e5ffabefa05db4baf8b0fd3d71d7bb4e2&v=4",
       "role": "Contributor",
-      "total_points": 868,
+      "total_points": 872,
       "activity_breakdown": {
         "Review submitted": {
-          "count": 10,
-          "points": 40
+          "count": 11,
+          "points": 44
         },
         "Issue closed": {
           "count": 153,
@@ -8861,6 +8868,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-10-31",
+          "count": 1,
+          "points": 4
+        },
         {
           "date": "2026-10-27",
           "count": 2,
@@ -9258,6 +9270,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-10-31T14:24:14Z",
+          "title": "Review on PR #1392",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1392",
+          "points": 4
+        },
         {
           "type": "Review submitted",
           "occured_at": "2026-10-27T08:48:51Z",
@@ -12546,10 +12565,18 @@
     {
       "username": "ShinichiShi",
       "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/141218988?v=4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/141218988?u=89d8c6cefb3b72abde02af74cfdd8c72222146aa&v=4",
       "role": "Contributor",
-      "total_points": 666,
+      "total_points": 671,
       "activity_breakdown": {
+        "Review submitted": {
+          "count": 2,
+          "points": 8
+        },
+        "Issue closed": {
+          "count": 23,
+          "points": 23
+        },
         "PR merged": {
           "count": 51,
           "points": 255
@@ -12565,17 +12592,14 @@
         "Issue labeled": {
           "count": 87,
           "points": 174
-        },
-        "Review submitted": {
-          "count": 1,
-          "points": 4
-        },
-        "Issue closed": {
-          "count": 22,
-          "points": 22
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-10-31",
+          "count": 2,
+          "points": 5
+        },
         {
           "date": "2026-10-13",
           "count": 1,
@@ -13023,6 +13047,20 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "Review submitted",
+          "occured_at": "2026-10-31T12:08:23Z",
+          "title": "Review on PR #1392",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1392",
+          "points": 4
+        },
+        {
+          "type": "Issue closed",
+          "occured_at": "2026-10-31T12:16:05Z",
+          "title": "Closed issue #734 - 🐞 Bug - Output component displays 'X' (undefined) state even when connected to valid gate output",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/issues/734",
+          "points": 1
+        },
         {
           "type": "PR merged",
           "occured_at": "2026-10-13T11:49:45Z",
@@ -34572,13 +34610,13 @@
       "role": "Contributor",
       "total_points": 146,
       "activity_breakdown": {
-        "PR opened": {
-          "count": 29,
-          "points": 58
-        },
         "PR merged": {
           "count": 10,
           "points": 50
+        },
+        "PR opened": {
+          "count": 29,
+          "points": 58
         },
         "Issue opened": {
           "count": 10,
@@ -34748,13 +34786,6 @@
       ],
       "raw_activities": [
         {
-          "type": "PR opened",
-          "occured_at": "2026-10-30T19:04:47Z",
-          "title": "fix - bump Ruby to 4.0.9 in .tool-versions for ubuntu-26.04 CI runners (#8109)",
-          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8110",
-          "points": 2
-        },
-        {
           "type": "PR merged",
           "occured_at": "2026-10-31T03:10:19Z",
           "title": "fix - bump Ruby to 4.0.9 in .tool-versions for ubuntu-26.04 CI runners (#8109)",
@@ -34767,6 +34798,13 @@
           "title": "fix - bump crass, view_component, sanitize and avo to resolve bundler-audit advisories",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8090",
           "points": 5
+        },
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-30T19:04:47Z",
+          "title": "fix - bump Ruby to 4.0.9 in .tool-versions for ubuntu-26.04 CI runners (#8109)",
+          "link": "https://github.com/CircuitVerse/CircuitVerse/pull/8110",
+          "points": 2
         },
         {
           "type": "Issue opened",
@@ -35195,15 +35233,15 @@
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/235941943?v=4",
       "role": "Contributor",
-      "total_points": 138,
+      "total_points": 143,
       "activity_breakdown": {
+        "PR merged": {
+          "count": 9,
+          "points": 45
+        },
         "PR opened": {
           "count": 29,
           "points": 58
-        },
-        "PR merged": {
-          "count": 8,
-          "points": 40
         },
         "Issue opened": {
           "count": 20,
@@ -35215,6 +35253,11 @@
         }
       },
       "daily_activity": [
+        {
+          "date": "2026-10-31",
+          "count": 1,
+          "points": 5
+        },
         {
           "date": "2026-10-29",
           "count": 1,
@@ -35397,6 +35440,13 @@
         }
       ],
       "raw_activities": [
+        {
+          "type": "PR merged",
+          "occured_at": "2026-10-31T10:14:14Z",
+          "title": "perf - batch canvas grid dot drawing in TypeScript",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1485",
+          "points": 5
+        },
         {
           "type": "PR opened",
           "occured_at": "2026-10-29T11:54:08Z",
@@ -67348,6 +67398,64 @@
       ]
     },
     {
+      "username": "Anushreebasics",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/122273783?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-10-31",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-10-31T13:05:15Z",
+          "title": "bug - removed extra popup after creating new project",
+          "link": "https://github.com/CircuitVerse/cv-frontend-vue/pull/1491",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "username": "lakshaydevoo-arch",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/229351168?v=4",
+      "role": "Contributor",
+      "total_points": 2,
+      "activity_breakdown": {
+        "PR opened": {
+          "count": 1,
+          "points": 2
+        }
+      },
+      "daily_activity": [
+        {
+          "date": "2026-08-03",
+          "count": 1,
+          "points": 2
+        }
+      ],
+      "raw_activities": [
+        {
+          "type": "PR opened",
+          "occured_at": "2026-08-03T18:09:41Z",
+          "title": "Fixed Progress bar script throws",
+          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/801",
+          "points": 2
+        }
+      ]
+    },
+    {
       "username": "Anurag-S1ngh",
       "name": null,
       "avatar_url": "https://avatars.githubusercontent.com/u/169547609?v=4",
@@ -68249,35 +68357,6 @@
           "occured_at": "2026-08-06T20:51:58Z",
           "title": "fix - resolve Popper.js conflict causing dropdown click failures (#7332)",
           "link": "https://github.com/CircuitVerse/CircuitVerse/pull/7748",
-          "points": 2
-        }
-      ]
-    },
-    {
-      "username": "lakshaydevoo-arch",
-      "name": null,
-      "avatar_url": "https://avatars.githubusercontent.com/u/229351168?v=4",
-      "role": "Contributor",
-      "total_points": 2,
-      "activity_breakdown": {
-        "PR opened": {
-          "count": 1,
-          "points": 2
-        }
-      },
-      "daily_activity": [
-        {
-          "date": "2026-08-03",
-          "count": 1,
-          "points": 2
-        }
-      ],
-      "raw_activities": [
-        {
-          "type": "PR opened",
-          "occured_at": "2026-08-03T18:09:41Z",
-          "title": "Fixed Progress bar script throws",
-          "link": "https://github.com/CircuitVerse/Interactive-Book/pull/801",
           "points": 2
         }
       ]
